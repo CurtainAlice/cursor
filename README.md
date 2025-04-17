@@ -27,7 +27,7 @@
 ### **Linux/macOS**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/canmi21/cursor/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
+curl -fsSL https://raw.githubusercontent.com/CurtainAlice/cursor/refs/heads/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
 ```
 
 ### **Archlinux**
