@@ -44,7 +44,7 @@ get_latest_version() {
         exit 1
     }
     
-    VERSION=$(echo "$latest_release" | grep -o '"tag_name": ".*"' | cut -d'"' -f4 | tr -d 'v')
+    VERSION=v1.9.05
     if [ -z "$VERSION" ]; then
         echo -e "${RED}❌ Failed to parse version from GitHub API response:\n${latest_release}"
         exit 1
